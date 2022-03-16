@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "nasalization";
+    src: url("nasalization-rg.otf") format("opentype");
+}
+@font-face {
+    font-family: "uni-sans";
+    src: url("uni-sans.otf") format("opentype");
+}
+
+.fontn {
+    font-family: nasalization;
+    color: white;
+}
+.fontr {
+    font-family: uni-sans;
+    color: white;
+}
+
+p {
+    font-family: uni-sans;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    font-family: nasalization;
+    color: rgb(0, 100, 146);
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(0, 132, 194);
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgb(20, 20, 20);
+    height: 60px;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    height: 30px;
+    width: 185px;
+    font-family: nasalization;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to top, rgb(0, 100, 158), rgb(0, 179, 192));
+}
+
+.headertext {
+    margin-left: 60px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.headericon {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: cadetblue;
+}
